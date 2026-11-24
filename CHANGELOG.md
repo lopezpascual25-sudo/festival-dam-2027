@@ -1,6 +1,15 @@
 \# Registro de Cambios (CHANGELOG) 
 
+## [v1.1]  - Nuevas funcionalidades y mantenimiento
 
+### Nuevas funcionalidades 
+- Incorporación de la Entrada VIP de un día (60€) con acceso preferente, zona de descanso y consumición incluida en `entradas.html`.
+- Incorporación del Abono general de dos días (45€) en `entradas.html` con acceso completo a todos los escenarios durante los dias 18 y 19.
+- Actualización del eslogan del festival en `index.html` tras la integración de ramas y resolución del conflicto.
+
+### Mantenimiento y corrección de errores
+- Corrección mediante `git revert` del precio erróneo de la Entrada VIP (restablecido de 600€  a 60€) conservando cambios posteriores.
+- Corrección mediante `git revert` del precio erróneo del Abono de dos días (restablecido de 450€  a 45€) conservando cambios posteriores.
 
 \## \[v1.0] - Versión Inicial (Festival DAM 2027) 
 
@@ -31,4 +40,3 @@
 \- Publicación de la Entrada General de 1 día a 25 €. 
 
 \- Definición de las condiciones generales de compra y normas de acceso al recinto.
-
